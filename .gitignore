@@ -1,0 +1,4 @@
+# Project exclude paths
+/consumer-elasticsearch/target/
+/kafka_examples/target/
+/kafka_streams_filter/target/
