@@ -3,7 +3,7 @@
 
 ![logo](bannerblue.jpg)
 
--------------------------
+
 
 
 ![logo](kafka arhitect.jpg)
@@ -26,9 +26,13 @@
    docker exec -it kafka /bin/sh
 ### CLI
    cd /opt/
+   
    cd bitnami
+   
    cd kafka  -> here create topic
+   
    cd bin/
+   
    cd . .
 ### -> create topic:
    if installed not as docker commands: 
