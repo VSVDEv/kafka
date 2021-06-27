@@ -6,7 +6,7 @@
 #### Arhitecture
 
 
-![logo](kafka arhitect.jpg)
+![logo](kafkaarhitect.jpg)
 
 
 
