@@ -5,7 +5,7 @@
 ------------------------
 #### Arhitecture
 --------------
-![logo](kafka_arhitect.jpg)
+![ScreenShot](kafka_arhitect.jpg)
 
 
 
