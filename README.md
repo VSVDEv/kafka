@@ -5,7 +5,7 @@
 ------------------------
 #### Arhitecture
 
-![logo](kafka_arhitect.jpg?raw=true)
+![logo](https://github.com/VSVDEv/kafka/blob/master/kafka_architect.jpg)
 --------------
 
 
