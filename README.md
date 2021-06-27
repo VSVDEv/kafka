@@ -5,9 +5,7 @@
 ------------------------
 #### Arhitecture
 --------------
-![logo](kafka_arhitect.jpg)
-
-<img src="~kafka_arhitect.jpg" height="100"/>
+![logo](kafka_arhitect.jpg?raw=true)
 
 
 
