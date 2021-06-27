@@ -2,11 +2,11 @@
 ### Project contains examples working with Apache Kafka for java developers
 
 ![logo](bannerblue.jpg)
-
+------------------------
 #### Arhitecture
 
 
-![logo](kafkaarhitect.jpg)
+![logo](kafka arhitect.jpg)
 
 
 
