@@ -7,7 +7,7 @@
 --------------
 ![ScreenShot](kafka_arhitect.jpg)
 
-
+<img src="kafka_arhitect.jpg" height="100"/>
 
 
 
