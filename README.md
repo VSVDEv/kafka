@@ -5,7 +5,7 @@
 ------------------------
 #### Arhitecture
 --------------
-![foo](kafka_arhitect.jpg?raw=true)
+![](kafka_arhitect.jpg?raw=true)
 
 
 
