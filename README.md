@@ -4,9 +4,12 @@
 ![logo](bannerblue.jpg)
 ------------------------
 #### Arhitecture
-
-
+--------------
 ![logo](kafka_arhitect.jpg)
+
+
+
+
 
 
 
