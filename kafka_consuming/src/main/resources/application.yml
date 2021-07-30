@@ -1,0 +1,37 @@
+server.port: 8081
+logging:
+  level:
+    com:
+      vsvdev: DEBUG
+    org:
+      springframework:
+        kafka:
+          listener:
+            KafkaMessageListenerContainer: ERROR
+      apache:
+        kafka:
+          clients:
+            FetchSessionHandler: INFO
+            consumer:
+              internals: INFO
+
+kafka:
+  payment:
+    bootstrapAddress: localhost:9092
+    groupId: local-consumer
+    enabled: true
+    topics:
+      input: test
+      dlq: test.dlq
+      retry: test.retry
+    retries:
+      1: 500
+      2: 1000
+      3: 3000
+
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer

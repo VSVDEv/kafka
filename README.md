@@ -262,3 +262,17 @@
    http://localhost:8080/consumeStringMessage
    http://localhost:8080/consumeJsonMessage
   
+
+## Consuming strategy  [link to folder](kafka_consuming)
+
+![logo](retry.jpg)
+
+run as show above docker compose [link to folder](Compose) then run app
+
+`./bin/kafka-console-producer.sh --broker-list localhost:9092 --topic test --property "parse.key=true" --property "key.separator=:"` - producer
+
+`asd:{ "idempotencyKey": "3cc52d97-c0e3-4b84-b220-dbf4ac352dbc", "amount": 101.12, "initiatedOn": "2021-05-23 23:59:35" }`
+
+`asd:{ "idempotencyKey": "3cc52d97-c0e3-4b84-b220-dbf4ac352dbc", "amount": -101.12, "initiatedOn": "2021-05-23 23:59:35" }`
+
+`asd:{ "idempotencyKey": "3cc52d97-c0e3-4b84-b220-dbf4ac352dbc", "amount": 1000001.12, "initiatedOn": "2021-05-23 23:59:35" }`
